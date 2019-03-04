@@ -1,4 +1,4 @@
-'use strict'
+  'use strict'
 
 // Data structures allow us to structure and organise multiple primitive data
 

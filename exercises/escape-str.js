@@ -10,6 +10,7 @@
 // Your code :
 
 //* Begin of tests
+const escapeStr = "\/\\\`\"\'"
 const assert = require('assert')
 
 assert.strictEqual(typeof escapeStr, 'string')

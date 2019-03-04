@@ -6,9 +6,12 @@
  *
  */
 
-
+const yell = str => str.toUpperCase()
 //* Begin of tests
 const assert = require('assert')
 
-assert.fail('You must write your own tests')
+assert.strictEqual(typeof yell('str'), 'string')
+assert.strictEqual(yell('str'), 'STR')
+assert.strictEqual(yell('str'), 'STR')
+assert.strictEqual(yell('str'), 'STR')
 // End of tests */

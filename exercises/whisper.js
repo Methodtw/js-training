@@ -7,9 +7,10 @@
  *
  */
 
-
+const whisper = str => `*${str.toLowerCase()}*`
 //* Begin of tests
 const assert = require('assert')
 
-assert.fail('You must write your own tests')
+assert.strictEqual(typeof whisper('str'), 'string')
+assert.strictEqual(whisper('str'), '*str*')
 // End of tests */

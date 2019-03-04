@@ -10,6 +10,7 @@
 // Your code :
 
 //* Begin of tests
+const getLength = iterable => iterable.length
 const assert = require('assert')
 
 assert.strictEqual(getLength([ 2, 42 ]), 2)

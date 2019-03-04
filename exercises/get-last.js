@@ -10,6 +10,7 @@
 // Your code :
 
 //* Begin of tests
+const getLast = iterable => iterable[iterable.length-1]
 const assert = require('assert')
 
 assert.strictEqual(getLast([ 2, 42 ]), 42)

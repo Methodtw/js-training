@@ -10,6 +10,9 @@
 // Your code :
 
 //* Begin of tests
+const getFirst = iterable => iterable[0]
+
+
 const assert = require('assert')
 
 assert.strictEqual(getFirst([ 2, 42 ]), 2)
@@ -18,3 +21,4 @@ assert.strictEqual(getFirst([ getFirst ]), getFirst)
 assert.strictEqual(getFirst('salut'), 's')
 assert.strictEqual(getFirst([]), undefined)
 // End of tests */
+    

@@ -9,6 +9,10 @@
 
 
 //* Begin of tests
+function capitalize(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();    
+}
+
 const assert = require('assert')
 
 assert.strictEqual(typeof capitalize, "function")
